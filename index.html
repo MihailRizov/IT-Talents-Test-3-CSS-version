@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Test3 SeasonX</title>
+    <script src="node_modules/handlebars/dist/handlebars.min.js"></script>
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <link rel="stylesheet" href="assets/styles/resetCSS.css">
+    <link rel="stylesheet" href="assets/styles/homeStyle.css">
+
+    <script src="assets/scripts/emailStorage.js"></script>
+    <script src="assets/scripts/beerStorage.js"></script>
+
+
+    <script src="Pages/login/loginController.js"></script>
+    <script src="Pages/home/homeController.js"></script>
+    <script src="Pages/info/moreInfoController.js"></script>
+    <script src="assets/scripts/router.js"></script>
+</head>
+
+<body>
+    <div id="wraper" class="fullWidth1000px">
+    <header>
+        <img src="assets/imgs/header.jpg" class="fullWidth1000px" alt="">
+    </header>
+    <aside>
+        <div id="cupholder">
+            <div class="cups" value="1"></div>
+            <div class="cups" value="2"></div>
+            <div class="cups" value="3"></div>
+        </div>
+        <div id="chalkboard"></div>
+        <div id="foodOptions">
+            <input type="radio" name="food" value="chicken"  class="radio" checked="checked">
+            <input type="radio" name="food" value="fish"  class="radio">
+            <input type="radio" name="food" value="potato"  class="radio">
+            <input type="radio" name="food" value="tomato"  class="radio">
+            <input type="radio" name="food" value="pork"  class="radio">
+            <input type="radio" name="food" value="carrot"  class="radio">
+        </div>
+        <div id="buttonBeer"></div>
+
+    </aside>
+    <main>
+    <div id="workingPhase">
+        
+    </div>
+    </main>
+    <footer >
+        <img src="assets/imgs/footer.png" class="fullWidth1000px" alt="">
+        <img id="footerWoman" src="assets/imgs/footerWoman.png" alt="">
+        <img src="/assets/imgs/back.png" alt="" id="back">
+        <img src="/assets/imgs/recomend.png" alt="" id="recomend">
+    </footer>
+</div>
+
+</body>
+
+</html>
